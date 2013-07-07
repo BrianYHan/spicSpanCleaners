@@ -1,8 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Satisfy);
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
+/* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
 /* line 4, ../sass/_animation.scss */
 body {
   /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
@@ -4912,7 +4911,8 @@ a:hover {
   border-radius: 4px;
   padding: 10px;
   text-align: center;
-/*sec*/  font-weight: bold;
+  background: rgba(40, 40, 40, 0.85);
+  font-weight: bold;
   font-size: 19px;
   color: #FFFFFF;
   text-decoration: none;
@@ -5063,7 +5063,7 @@ iframe {
    ========================================================================== */
 /* line 274, ../sass/_main.scss */
 #home {
-  background: rgba(184,120,61, 0.9);
+  background: rgba(120, 120, 201, 0.9);
   height: 1000px;
 }
 
@@ -5083,14 +5083,14 @@ iframe {
    Work Styles
    ========================================================================== */
 /* line 293, ../sass/_main.scss */
-#location {
- background: url(../images/brickwall/brickwall.png) repeat;
+#work {
+  background: url(../img/ngc7635podi_wide-5000.jpg) repeat;
   background-size: 50%;
-  background-color: #F3F3F3;
+  background-color: #232527;
   padding: 130px 0px 130px 0px;
 }
 /* line 299, ../sass/_main.scss */
-#location a img {
+#work a img {
   width: 300px;
   height: 200px;
 }
@@ -5101,13 +5101,13 @@ iframe {
 }
 
 /* line 310, ../sass/_main.scss */
-.location-title {
+.project-title {
   background: #FFFFFF;
   padding: 12px 10px 10px 10px;
   margin-top: 0px;
 }
 /* line 314, ../sass/_main.scss */
-.location-title p {
+.project-title p {
   color: black;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
@@ -5116,7 +5116,7 @@ iframe {
 }
 
 /* line 323, ../sass/_main.scss */
-.location:hover {
+.work:hover {
   opacity: 0.8;
   transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -5128,7 +5128,7 @@ iframe {
 }
 
 /* line 335, ../sass/_main.scss */
-.location-images img {
+.work-images img {
   width: 100%;
 }
 
@@ -5878,69 +5878,4 @@ footer a:hover {
   padding: 0.4em;
   font-size: 1.4em;
   height: 18px;
-}
-
-/* line 5, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
 }
